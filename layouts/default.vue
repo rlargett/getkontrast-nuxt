@@ -8,9 +8,9 @@
 import topBar from '@/components/topBar'
 
 export default {
-  components: {
-    topBar
-  }
+    components: {
+        topBar,
+    },
 }
 </script>
 
