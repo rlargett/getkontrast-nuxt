@@ -1,6 +1,5 @@
 <template lang="pug">
   div
-    p Quickly check and adjust contrast in realtime in your browser to meet the standards of WCAG 2.0 (Web Content Accessibility Guidelines).
 </template>
 
 <script>

@@ -166,7 +166,7 @@ module.exports = {
         'sans-serif'
       ]
     },
-    textSize: {
+    fontSize: {
       xs: '.75rem', // 12px
       sm: '.875rem', // 14px
       base: '1rem', // 16px
@@ -176,7 +176,6 @@ module.exports = {
       '3xl': '1.875rem', // 30px
       '4xl': '2.25rem', // 36px
       '5xl': '3rem', // 48px
-
       '5rem': '5rem'
     },
     fontWeight: {
@@ -440,7 +439,7 @@ module.exports = {
     tableLayout: ['responsive'],
     textAlign: ['responsive'],
     textColor: ['responsive', 'hover', 'focus'],
-    textSize: ['responsive'],
+    fontSize: ['responsive'],
     fontStyle: ['responsive', 'hover', 'focus'],
     fontSmoothing: ['responsive', 'hover', 'focus'],
     textDecoration: ['responsive', 'hover', 'focus'],

@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  div(class="font-hack leading-normal text-black bg-grey-lighter antialiased")
     topBar
     nuxt
 </template>
