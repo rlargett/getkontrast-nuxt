@@ -115,6 +115,90 @@ export default {
             subscribe: false,
         }
     },
+    head() {
+        return {
+            title: 'Kontrast - WCAG Contrast Checker',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content:
+                        'Easily check and adjust text and background contrast realtime in your browser to meet the web standards requirements.',
+                },
+                {
+                    hid: 'keywords',
+                    name: 'keywords',
+                    content: 'contrast,extension,WCAG,chrome,firefox,browser,tool',
+                },
+                {
+                    property: 'og:url',
+                    content: 'https://getkontrast.com',
+                },
+                {
+                    property: 'og:image',
+                    content: 'https://getkontrast.com/og-image.jpg',
+                },
+                {
+                    property: 'og:image:width',
+                    content: '1352',
+                },
+                {
+                    property: 'og:image:height',
+                    content: '630',
+                },
+                {
+                    property: 'og:type',
+                    content: 'website',
+                },
+                {
+                    property: 'og:title',
+                    content: 'Kontrast - Check and adjust web element contrast in real time.',
+                },
+                {
+                    property: 'og:description',
+                    content:
+                        'Quickly check and adjust contrast in realtime in your browser to meet the standards of Web Content Accessibility Guidelines (WCAG) requirements.',
+                },
+                {
+                    property: 'og:site_name',
+                    content: 'Kontrast - Check and adjust web element contrast in real time.',
+                },
+                {
+                    property: 'og:locale',
+                    content: 'en_US',
+                },
+                {
+                    name: 'twitter:card',
+                    content: 'summary_large_image',
+                },
+                {
+                    name: 'twitter:site',
+                    content: '@getkontrast',
+                },
+                {
+                    name: 'twitter:creator',
+                    content: '@getkontrast',
+                },
+                {
+                    name: 'twitter:url',
+                    content: 'https://getkontrast.com',
+                },
+                {
+                    name: 'twitter:title',
+                    content: 'Kontrast - Check and adjust web element contrast in real time.',
+                },
+                {
+                    name: 'twitter:description',
+                    content:
+                        'Quickly check and adjust contrast in realtime in your browser to meet the standards of Web Content Accessibility Guidelines (WCAG) requirements.',
+                },
+                {
+                    name: 'twitter:image',
+                    content: 'https://getkontrast.com/og-image.jpg',
+                },
+            ],
+        }
+    },
     methods: {
         showSlide() {
             this.isSlideVisible = !this.isSlideVisible
